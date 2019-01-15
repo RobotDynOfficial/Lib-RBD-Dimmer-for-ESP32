@@ -38,7 +38,7 @@ static const uint8_t powerBuf[] = {
      10,  9,  8,  7,  6,  5,  4,  3,  2,  1
 };
 
-#define ALL_DIMMERS 10
+#define ALL_DIMMERS 100
 
 void IRAM_ATTR isr_ext();
 void IRAM_ATTR onTimerISR();
